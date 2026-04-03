@@ -1,0 +1,11 @@
+Functional requirements — Contacts CLI application
+
+1. The system shall store each contact with a first name, last name, company name, and job title.
+2. The system shall allow each contact to have zero or more phone numbers; each phone number shall include the digits (or formatted number) and a label (e.g., Home, Mobile, Work).
+3. The system shall allow each contact to have zero or more email addresses; each email shall include the address and a label (e.g., Home, Work).
+4. The user shall be able to search contacts (e.g., by name, company, or other stored fields as supported by the application).
+5. The user shall be able to add a new contact with associated phone numbers and email addresses.
+6. The user shall be able to update an existing contact and its phone numbers and email addresses.
+7. The user shall be able to delete an existing contact.
+8. The user shall be able to merge duplicate contacts into a single contact record (combining or reconciling their data as defined by the application’s merge rules).
+9. The system shall support running as a command-line interface (CLI) application.
